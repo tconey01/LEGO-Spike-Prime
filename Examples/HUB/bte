@@ -1,0 +1,18 @@
+#Display a image on the hub
+
+#import the light_matrix
+from hub import light_matrix
+
+#show a image
+light_matrix.show_image(light_matrix.IMAGE_HAPPY)
+
+
+#import buttons
+from hub import button
+
+#
+while not button.pressed(button.LEFT):
+    pass
+
+while button.pressed(button.LEFT):
+    light_matrix.show_image(light_matrix.IMAGE_SAD)
