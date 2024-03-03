@@ -1,0 +1,35 @@
+from hub import port
+import color_sensor, time
+from hub import light_matrix
+from hub import button
+
+light_matrix.show_image(light_matrix.IMAGE_TSHIRT)
+
+while button.pressed(button.LEFT):
+    time.sleep_ms(2000)
+    print("The color of your shirt is", colors[color_sensor.color(light)])
+   
+while not button.pressed(button.LEFT):
+    pass
+
+
+light = port.A
+
+colors = {
+    -1:'ERR',
+    0:"BLACK",
+    1:"MAGENTA",
+    2:"PURPLE",
+    3:"BLUE",
+    4:"AZURE",
+    5:"TURQUOISE",
+    6:"GREEN",
+    7:"YELLOW",
+    8:"ORANGE",
+    9:"RED",
+    10:"WHITE",
+    11:"DIM_WHITE",
+    }
+
+time.sleep_ms(1000)
+print("The color of your shirt is", colors[color_sensor.color(light)])
