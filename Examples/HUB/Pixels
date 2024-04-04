@@ -1,3 +1,5 @@
+#pixel game right now but will be reconfigured to have a 2nd version that just breaks it down and shows how to move a pixel to begin with
+
 from hub import light_matrix
 from hub import button
 import time
