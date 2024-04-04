@@ -1,3 +1,5 @@
+#monitoring button presses
+
 from hub import button
 import time
 
