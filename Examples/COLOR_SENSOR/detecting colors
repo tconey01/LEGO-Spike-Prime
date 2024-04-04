@@ -1,3 +1,5 @@
+#detect colors using the color sensor
+
 from hub import port
 import color_sensor, time
 
