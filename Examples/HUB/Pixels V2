@@ -1,3 +1,5 @@
+#GPT made this code from the original pixel game version so right now it's a game but will also be reconfigured to have a  version that just breaks it down and shows how to move a pixel to begin with etc.
+
 from hub import button, sound
 import time, random
 
