@@ -1,3 +1,5 @@
+#In progress but is just a basic example of controlling motor pair inputs speed with the force sensor (car pedal-like) could be useful for creations like (similar to the sport curling...) 
+
 from hub import port
 import runloop
 import motor_pair
