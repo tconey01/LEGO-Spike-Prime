@@ -1,3 +1,5 @@
+#sequentially displaying imgs
+
 from hub import light_matrix
 import time
 
